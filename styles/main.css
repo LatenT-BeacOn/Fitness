@@ -155,18 +155,17 @@ font-size: 70px;
 .details{
     text-align: center;
     width: 60%;
-    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 50px;
 
 }
 
-.up-tittle{
+.up-tittle,.sec2-tilttle{
     color: rgb(255, 255, 255);
     font-weight: 800;
     font-size: 2rem;
 }
-.up-description{
+.up-description,.sec2-descrptn{
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
     font-size: 14px;
@@ -189,4 +188,17 @@ font-size: 70px;
 }
 .name1{
     font-size: 13px;
+}
+.section2{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+     gap: 80px;
+    padding: 20px 40px;
+}
+.sce2pic-pic{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    border-radius: 12px;
 }
