@@ -7,7 +7,7 @@ font-family: "Inter", sans-serif;
 font-optical-sizing: auto;
 font-weight:400;
 font-style: normal;
-background-color: black;
+/* background-color: black; */
 box-sizing: border-box;
 max-width: 1400px;
 }
@@ -193,12 +193,30 @@ font-size: 70px;
     width: 60%;
     margin: 0 auto;
     margin-top: 50px;
-     gap: 80px;
+    gap: 80px;
     padding: 20px 40px;
+    background-color:rgb(34, 34, 34) ;
+    border-radius: 15px;
 }
 .sce2pic-pic{
     width: 100%;
     margin: 0 auto;
     height: auto;
     border-radius: 12px;
+}
+.bmi-tittle{
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+.bmi-desription{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.section3{
+    /* align-items: center;  */
+    /* text-align:left; */
+    margin-left: 30%;
+   
 }
