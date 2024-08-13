@@ -18,8 +18,13 @@ header{
 
 }
 
-.display{
+.display,.banner-part{
     display: flex;
+}
+
+.display{
+    justify-content: space-between;
+     align-items: center;
 
 }
 .tittle{
@@ -27,11 +32,11 @@ header{
     font-weight: 800;
     color: rgb(230, 83, 60);
 }
-
+/* 
 .hero{
-    justify-content: space-between;
+     flex-direction: column;
     align-items: center;
-}
+} */
 
 .list-items{
     list-style: none;
@@ -40,6 +45,16 @@ header{
 .item{
     text-decoration: none;
     align-items: center;
-    color:rgba(255, 255, 255, 0.1) ;
+    /* color:rgba(255, 255, 255, 0.1) ; */
+    color: whi;
     font-size: 1rem;
+}
+.item-1{
+
+    background-color: #E6533C;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.banner-part{
+    
 }
