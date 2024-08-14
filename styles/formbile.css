@@ -1,14 +1,46 @@
 @media screen  and (max-width:576px){
-            .icon{
-            display: block;
-            margin-top: 10px;
-            }
-        .list-items{
-            display: none;
-        }
-        .banner-part{
-           flex-direction: column;
-        }
+    /* .icon-img{
+       width: 10px;
+       height: 10px;
+       color: aliceblue;
+     } */
+      .icon{
+        display: block;
+         margin-top: 10px;
+      }
+    .list-items{
+         display: none;
+    }
+  .banner-part{
+    margin-top: -120px;
+  }
+  .div-1{
+     margin-bottom: 10px;
+  }
+  .btn-2,.btn-1{
+    width: 200px;
+  }
+  .btnn{
+    width: 300px;
+  }
+  .div-2 img{
+       height: 80%;
+       padding-left:40px;
+  }
+   header {
+        width:95%;
+        height: 100%;
+        padding: 20px 0 0 20px;
+    }
+    .img-box-2{
+    position: absolute;
+    margin-left: -20px;
+    margin-top: -150px;
+    }
+   
+    .banner-part{
+        flex-direction: column;
+    }
     .examples{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -19,7 +51,7 @@
     }
     .section3{
     
-    margin-left: 10%;
+    margin-left:10px;
    
     }
     .exr-head{
@@ -35,18 +67,14 @@
     }
     .table-part{
       max-width:100%;
+      margin-left: -140px;
+      padding: 0px;
 }
 .calc{
     margin-left: 20%;
     margin-right: 15%;
 }
 
-/* .sec-5imgs{ 
-    grid-template-columns: repeat(1,1fr);
-    border-radius: 12px;
-    background-color:rgba(255, 255, 255, 0.1) ;
-    gap: 15px;
-} */
 
 .endpart{
     /* margin: 0 auto; */
@@ -69,6 +97,25 @@
     margin: 0px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     margin-bottom: 10px;
+}
+.sec-5imgs{
+    max-height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    gap: 15px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.sec-5imgs img {
+    border-radius: 12px;
+}
+.footerr{
+    margin-top: -60px;
+}
+.trainer-1{
+     display: none;
 }
 .endline{
     text-align:left;
