@@ -251,6 +251,16 @@ th {
     color: white;
     text-align: start;
 }
+.calculate-bmi,.tablehead{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.calculate-description{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
 .calc{
     margin-left: 10%;
     margin-right: 10%;
@@ -284,6 +294,7 @@ th {
     max-width: 60%;
     height: 500px;
     margin: 0 auto;
+    margin-bottom: 200px;
     
 }
 .sce-content{
@@ -335,4 +346,57 @@ th {
     height: 100%;
     object-fit: cover;
     border-radius: 12px;
+}
+.footerr{
+    max-width: 1440px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+
+}
+.left{
+    padding: 50px;
+}
+
+.middle{
+    padding: 50px;
+}
+.right{
+    padding: 50px;
+}
+ .middle-head{
+    font-weight: 800px;
+    font-size: 20px;
+    color: white;
+ }
+.endpart{
+    /* margin: 0 auto; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:40px;
+    margin-left: 5%;
+}
+.middle-details,.right-details{
+    font-size: 18px;
+    row-gap: 1000px;
+}
+.endline{
+    text-align: center;
+     /* margin-bottom: 2%; */
+     margin-top: -10px;
+
+   
+}
+.end{
+    
+   color: rgba(255, 255, 255, 0.5);
+   
+}
+.endborder{
+    margin: 0px 240px 0px 265px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+.endline{
+    text-align: center;
+    padding-bottom: 20px;
 }
