@@ -92,8 +92,13 @@ font-size: 70px;
     background-color: black;
     border: 1px solid white;
 }
+.icon{
+    color: white;
+    display: none;
+}
 .div-2{
     height: 80%;
+    width: 40%;
 }
 
 .img-box{
