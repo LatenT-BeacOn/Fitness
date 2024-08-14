@@ -7,7 +7,7 @@ font-family: "Inter", sans-serif;
 font-optical-sizing: auto;
 font-weight:400;
 font-style: normal;
-/* background-color: black; */
+background-color: black;
 box-sizing: border-box;
 max-width: 1400px;
 }
@@ -20,13 +20,13 @@ header{
 
 }
 
-.display,.banner-part,.img-box-2{
+.display,.banner-part,.img-box-2,.section4{
     display: flex;
 }
 
 .display{
     justify-content: space-between;
-     align-items: center;
+    align-items: center;
 
 }
 .tittle{
@@ -219,4 +219,82 @@ font-size: 70px;
     /* text-align:left; */
     margin-left: 30%;
    
+}
+.section4{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    /* height: 400px; */
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: rgb(34, 34, 34);
+    padding: 20px 100px;
+    /* gap: 100px; */
+
+}
+.table-part{
+    margin-left: 15%;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.75rem;
+
+}
+th {
+    color: white;
+    text-align: start;
+}
+.calc{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+::placeholder,option{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.select{
+ background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 5px;
+}
+
+#activity {
+    grid-column: span 2;
+}
+.bmi-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:7px;
+}
+
+.section-5{
+    text-align: center;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.setn5-head{
+    font-weight: 800;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+.setn-5-description{
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: 400;
+        font-size: 12px;
+}
+.sec-5imgs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
